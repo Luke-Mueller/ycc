@@ -2,6 +2,8 @@
   height: 2.5rem;
   width: 4rem;  
   z-index: 100;
+  position: fixed;
+  right: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
