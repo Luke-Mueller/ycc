@@ -3,5 +3,5 @@
 }
 
 .HomeText__p {
-  color: white;
+  transition: color 500ms ease-out;
 }
