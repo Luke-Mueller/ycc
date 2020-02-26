@@ -1,6 +1,6 @@
 .NavBtn {
-  height: 2rem;
-  width: 3rem;  
+  height: 2.5rem;
+  width: 4rem;  
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 
 .NavBtn__span {
   height: 0.3rem;
-  width: 90%;
-  background-color: black;
+  width: 100%;
+  background-color: rgba(139, 49, 212, 0.8);
   border-radius: 10px;
 }
