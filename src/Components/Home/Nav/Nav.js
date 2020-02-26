@@ -4,7 +4,7 @@ import './Nav.css';
 
 const Nav = props => {
   return (
-    <h1>HELLO WORLD!</h1>
+    <h1>Filler Content</h1>
   )
 }
 
