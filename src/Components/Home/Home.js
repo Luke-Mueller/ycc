@@ -2,6 +2,7 @@ import React from 'react';
 
 import Backdrop from '../Backdrop/Backdrop';
 import Header from '../Header/Header';
+import Nav from '../Nav/Nav';
 
 import './Home.css';
 
@@ -14,7 +15,7 @@ const Home = props => {
         <p className="Home__p">and building bridges from them to you</p>
       </div>
       <Backdrop>
-
+        <Nav />
       </Backdrop>
     </section>
   )
