@@ -11,8 +11,9 @@ const Home = props => {
 
   const setShowNavHandler = () => {
     setShowNav(!showNav);
+    console.log(showNav);
   }
-  
+
   return (
     <section className="Home">
       <Header setShowNav={setShowNavHandler} />
@@ -20,7 +21,7 @@ const Home = props => {
         <p className="Home__p">Providing a home for Colorado-based charities</p>
         <p className="Home__p">and building bridges from them to you</p>
       </div>
-      <Backdrop>
+      <Backdrop showNav={showNav}>
         <Nav />
       </Backdrop>
     </section>
