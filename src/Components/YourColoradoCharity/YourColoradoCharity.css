@@ -1,5 +1,13 @@
-.YourColoradoCharity {
-  height: 100vh;
+.YCC {
+  height: 110vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: aquamarine;
+  padding: 1.5rem;
+}
+
+.YCC__a {
+  font-size: 2rem;
 }

@@ -5,8 +5,9 @@ import './CodeForDenverQV.css';
 const CodeForDenverQV = props => {
   return (
     <div className="CodeForDenverQV">
-      <h1>Code For Denver Filler Info</h1>
-      <button>Learn More</button>
+      <h1>Code For Denver</h1>
+      <button onClick={()=> {console.log('clicked')}}>Learn More</button>
+
     </div>
   )
 };

@@ -9,8 +9,11 @@ const QuickViews = props => {
   return (
     <div>
       <CodeForDenverQV />
+      <hr/>
       <DenverPublicLibraryQV />
+      <hr/>
       <DenverPublicZooQV />
+      <hr/>
       <OxfordHouseQV />
     </div>
   )

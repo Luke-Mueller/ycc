@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="App">
       <Home />
-      <QuickViews />
       <YourColoradoCharity />
+      <QuickViews />
     </div>
   );
 }

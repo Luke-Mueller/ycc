@@ -1,7 +1,6 @@
 .DenverPublicLibraryQV {
   height: 33vh;
   width: 100%;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
 }

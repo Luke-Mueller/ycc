@@ -1,7 +1,8 @@
 .CodeForDenverQV {
   height: 33vh;
   width: 100%;
-  background-color: red;
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
 }
