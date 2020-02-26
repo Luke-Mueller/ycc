@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Backdrop from '../Backdrop/Backdrop';
 import Header from '../Header/Header';
 
 import './Home.css';
@@ -12,6 +13,9 @@ const Home = props => {
         <p className="Home__p">Providing a home for Colorado-based charities</p>
         <p className="Home__p">and building bridges from them to you</p>
       </div>
+      <Backdrop>
+
+      </Backdrop>
     </section>
   )
 };
