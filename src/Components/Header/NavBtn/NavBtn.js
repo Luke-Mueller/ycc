@@ -4,7 +4,9 @@ import './NavBtn.css';
 
 const NavBtn = props => {
   return (
-    <div className="NavBtn">
+    <div 
+      className="NavBtn"
+      onClick={props.setShowNav} >
       <span className="NavBtn__span top" />
       <span className="NavBtn__span middle" />
       <span className="NavBtn__span bottom" />

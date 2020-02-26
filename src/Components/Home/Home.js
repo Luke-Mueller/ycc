@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Backdrop from '../Backdrop/Backdrop';
 import Header from '../Header/Header';
@@ -7,9 +7,15 @@ import Nav from '../Nav/Nav';
 import './Home.css';
 
 const Home = props => {
+  const [showNav, setShowNav] = useState(false);
+
+  const setShowNavHandler = () => {
+    setShowNav(!showNav);
+  }
+  
   return (
     <section className="Home">
-      <Header />
+      <Header setShowNav={setShowNavHandler} />
       <div className="Home__div">
         <p className="Home__p">Providing a home for Colorado-based charities</p>
         <p className="Home__p">and building bridges from them to you</p>

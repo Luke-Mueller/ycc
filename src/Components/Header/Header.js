@@ -10,7 +10,7 @@ const Header = props => {
       <div className="Header__img">
         <p>LOGO</p>  
       </div> 
-      <NavBtn />
+      <NavBtn setShowNav={props.setShowNav}/>
     </header>    
   )
 };
