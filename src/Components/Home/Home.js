@@ -12,8 +12,7 @@ const Home = props => {
 
   const setShowNavHandler = () => {
     setShowNav(!showNav);
-    console.log(showNav);
-  }
+  };
 
   return (
     <section className="Home">
