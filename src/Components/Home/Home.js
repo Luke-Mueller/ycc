@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Backdrop from '../Backdrop/Backdrop';
+import Backdrop from '../Shared/Backdrop/Backdrop';
 import Header from './Header/Header';
 import HomeText from './HomeText/HomeText';
 import Nav from './Nav/Nav';
