@@ -1,0 +1,13 @@
+.JoinUs {
+  height: 110vh;
+  width: 100%;
+  background-color: orchid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+
+.JoinUs__a {
+  font-size: 2rem;
+}

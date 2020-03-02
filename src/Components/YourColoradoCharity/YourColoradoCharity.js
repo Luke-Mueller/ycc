@@ -11,7 +11,6 @@ const YourColoradoCharity = props => {
       <br/>
       <h2>This is a different paragraph highlighting the diversity of our clients and inviting users to scroll down and learn more about each one</h2>
       <br/>
-      <a className="YCC__a" href="#">Join the community</a>
     </div>
   )
 };
