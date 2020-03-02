@@ -15,11 +15,11 @@ const Home = props => {
   };
 
   return (
-    <section className="Home">
-      <Header setShowNav={setShowNavHandler} />
+    <section className="Home" id="home">
+      <Header showNav={showNav} setShowNav={setShowNavHandler} />
       <HomeText showNav={showNav} />
       <Backdrop showNav={showNav}>
-        <Nav />
+        <Nav setShowNav={setShowNavHandler} />
       </Backdrop>
     </section>
   )

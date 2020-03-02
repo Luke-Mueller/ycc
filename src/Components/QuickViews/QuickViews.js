@@ -7,7 +7,7 @@ import OxfordHouseQV from './OxfordHouseQV/OxfordHouseQV';
 
 const QuickViews = props => {
   return (
-    <div>
+    <section id="charities">
       <CodeForDenverQV />
       <hr/>
       <DenverPublicLibraryQV />
@@ -15,7 +15,7 @@ const QuickViews = props => {
       <DenverPublicZooQV />
       <hr/>
       <OxfordHouseQV />
-    </div>
+    </section>
   )
 };
 
