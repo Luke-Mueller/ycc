@@ -1,6 +1,13 @@
 .Nav {
-  padding: 1.5rem;
+  height: 100vh;
+  width: 100%;
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Nav__ul {
+  padding: 0;
 }

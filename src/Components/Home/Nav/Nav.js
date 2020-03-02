@@ -20,7 +20,7 @@ const Nav = () => {
 
   return (
     <nav className="Nav">
-      <ul>
+      <ul className="Nav__ul">
         {navItems}
       </ul>  
     </nav>
