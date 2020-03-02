@@ -4,8 +4,10 @@ import './NavItem.css';
 
 const NavItem = props => {
   return (
-    <li>
-      <a href="#">{props.item}</a>
+    <li className="NavItem">
+      <a className ="NavItem__a" href="#">
+        {props.item}
+      </a>
     </li>
   )
 };

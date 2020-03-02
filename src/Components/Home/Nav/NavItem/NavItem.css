@@ -1,0 +1,10 @@
+.NavItem {
+  margin: 1.5rem;
+  list-style: none;
+}
+
+.NavItem__a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: gold;
+}
