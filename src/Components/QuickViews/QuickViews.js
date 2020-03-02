@@ -14,13 +14,10 @@ const QuickViews = props => {
       <h1 className="QuickViews__h1">Charities</h1>
       <br/>
       <CodeForDenverQV />
-      <br/>
       <hr/>
       <DenverPublicLibraryQV />
-      <br/>
       <hr/>
       <DenverPublicZooQV />
-      <br/>
       <hr/>
       <OxfordHouseQV />
       <br/><br/><br/><br/>
