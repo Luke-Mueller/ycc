@@ -5,6 +5,8 @@ import './YourColoradoCharity.css';
 const YourColoradoCharity = props => {
   return (
     <section className="YCC" id="about">
+      <h1 className="YCC__h1">YCC</h1>
+      <br/>
       <h2>Welcome to Your Colorado Charity info page. In this paragraph, we give information about being located in Denver, Colorado and establish it as a hub for charities</h2>
       <br/>
       <h2>In this paragraph, we specify the services we offer and tie it into the branding statement</h2>
