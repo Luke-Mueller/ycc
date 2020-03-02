@@ -1,3 +1,11 @@
+After downloading the zip or cloning from Github, navigate into the project folder in terminal and run:
+$ npm install
+
+After intallation is complete, run:
+$ npm start
+
+After a short wait for the server to launch, you will find the project by entering localhost:3000 into the url bar of your browser.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
