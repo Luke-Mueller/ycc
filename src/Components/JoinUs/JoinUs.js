@@ -2,7 +2,7 @@ import React from 'react';
 
 import './JoinUs.css';
 
-const JoinUs = props => {
+const JoinUs = () => {
   return (
     <section className="JoinUs" id="join">
       <h1 className="JoinUs__h1"> Join Us </h1>

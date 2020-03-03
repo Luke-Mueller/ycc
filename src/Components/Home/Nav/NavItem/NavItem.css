@@ -3,8 +3,7 @@
   list-style: none;
 }
 
-.NavItem__a {
+.NavItem__p {
   font-size: 2rem;
-  text-decoration: none;
   color: gold;
 }

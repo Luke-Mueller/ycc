@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import './NavItem.css';
 
@@ -11,7 +11,7 @@ const NavItem = props => {
       smooth={true}
       duration={1000}
       onClick={props.setShowNav}>
-        <a className="NavItem__a">{props.item}</a>
+        <p className="NavItem__p">{props.item}</p>
     </Link>
   )
 };

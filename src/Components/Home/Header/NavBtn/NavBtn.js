@@ -3,13 +3,16 @@ import React from 'react';
 import './NavBtn.css';
 
 const NavBtn = props => {
+  let classname;
+  props.showNav ? classname = 'NavBtn active' : classname = 'NavBtn'; 
+
   return (
     <div 
-      className="NavBtn"
+      className={classname}
       onClick={props.setShowNav} >
-      <span className="NavBtn__span top" />
-      <span className="NavBtn__span middle" />
-      <span className="NavBtn__span bottom" />
+      <span className="NavBtn__span" />
+      <span className="NavBtn__span" />
+      <span className="NavBtn__span" />
     </div>
   )
 };

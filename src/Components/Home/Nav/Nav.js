@@ -16,6 +16,7 @@ const Nav = props => {
     return <NavItem 
       item={navItem.item}
       itemId={navItem.elementId}
+      key={navItemsList.indexOf(navItem)}
       setShowNav={props.setShowNav} />
   });
 

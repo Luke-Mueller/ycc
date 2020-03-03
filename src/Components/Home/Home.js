@@ -16,7 +16,9 @@ const Home = props => {
 
   return (
     <section className="Home" id="home">
-      <Header showNav={showNav} setShowNav={setShowNavHandler} />
+      <Header 
+        showNav={showNav} 
+        setShowNav={setShowNavHandler} />
       <HomeText showNav={showNav} />
       <Backdrop showNav={showNav}>
         <Nav setShowNav={setShowNavHandler} />

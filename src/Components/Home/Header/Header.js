@@ -10,7 +10,9 @@ const Header = props => {
       <div className="Header__img">
         <p className="Header__p" style={{ color: props.showNav ? 'transparent' : 'white' }}>LOGO</p>  
       </div> 
-      <NavBtn setShowNav={props.setShowNav}/>
+      <NavBtn
+        showNav={props.showNav} 
+        setShowNav={props.setShowNav}/>
     </header>    
   )
 };
