@@ -8,7 +8,7 @@ const Nav = props => {
   const navItemsList = [
     { item: 'Home', elementId: 'home' },
     { item: 'YCC', elementId: 'about' },
-    { item: 'View charities', elementId: 'charities' },
+    { item: 'View Organizations', elementId: 'charities' },
     { item: 'Join the community', elementId: 'join' }
   ]
 

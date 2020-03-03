@@ -18,6 +18,7 @@ const Cards = () => {
 
   return (
     <section className="Cards" id="charities">
+      <h1 className="Cards__h1">Organizations</h1>
       {cards}
     </section>
   )
