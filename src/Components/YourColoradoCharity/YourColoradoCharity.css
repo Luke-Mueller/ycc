@@ -1,9 +1,9 @@
 .YCC {
-  height: 110vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: aquamarine;
   padding: 1.5rem;
 }
