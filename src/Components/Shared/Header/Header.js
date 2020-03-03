@@ -16,7 +16,7 @@ const Header = props => {
         showNav={props.showNav} 
         setShowNav={props.setShowNav}/>
       <Backdrop showNav={props.showNav}>
-        <Nav setShowNav={props.setShowNavHandler} />
+        <Nav setShowNav={props.setShowNav} />
       </Backdrop>
     </header>    
   )
