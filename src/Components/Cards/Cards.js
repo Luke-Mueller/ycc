@@ -1,26 +1,24 @@
 import React from 'react';
 
-import CodeForDenverQV from './CodeForDenverCard/CodeForDenverCard';
-import DenverPublicLibraryQV from './DenverPublicLibraryCard/DenverPublicLibraryCard';
-import DenverPublicZooQV from './DenverPublicZooCard/DenverPublicZooCard';
-import OxfordHouseQV from './OxfordHouseCard/OxfordHouseCard';
+import Card from './Card/Card';
 
 import './Cards.css';
 
-const Cards = props => {
+// real data will be fetched from the Go backend
+import data from '../../dummyData.json';
+
+const Cards = () => {
+
+  const cards = data.orgs.map(org => 
+    <Card 
+      key={data.orgs.indexOf(org)} 
+      name={org.name} 
+      cardIntro={org.cardIntro}/>
+  )
+
   return (
     <section className="Cards" id="charities">
-      <br/><br/><br/><br/>
-      <h1 className="Cards__h1">Charities</h1>
-      <br/>
-      <CodeForDenverQV />
-      <hr/>
-      <DenverPublicLibraryQV />
-      <hr/>
-      <DenverPublicZooQV />
-      <hr/>
-      <OxfordHouseQV />
-      <br/><br/><br/><br/>
+      {cards}
     </section>
   )
 };
