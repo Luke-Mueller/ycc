@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Home from './Components/Home/Home';
 import Cards from './Components/Cards/Cards';
-import YourColoradoCharity from './Components/YourColoradoCharity/YourColoradoCharity';
+import Footer from './Components/Shared/Footer/Footer';
+import Home from './Components/Home/Home';
 import JoinUs from './Components/JoinUs/JoinUs';
+import YourColoradoCharity from './Components/YourColoradoCharity/YourColoradoCharity';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ const App = () => {
       <YourColoradoCharity />
       <Cards />
       <JoinUs />
+      <Footer />
     </div>
   );
 }
