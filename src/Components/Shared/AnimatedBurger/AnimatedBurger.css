@@ -1,4 +1,4 @@
-.NavBtn {
+.AnimatedBtn {
   height: 2.5rem;
   width: 4rem;  
   z-index: 100;
@@ -10,7 +10,7 @@
   padding: 0 0.25rem;
 }
 
-.NavBtn__span {
+.AnimatedBtn__span {
   height: 0.3rem;
   width: 100%;
   background-color: rgba(86, 24, 138, 0.8);
@@ -19,19 +19,19 @@
 
 /* Add active class animation */
 
-.NavBtn.active :first-child {
+.AnimatedBtn.active :first-child {
   animation-name: topSpanActivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;
 }
 
-.NavBtn.active :nth-child(2) {
+.AnimatedBtn.active :nth-child(2) {
   animation-name: middleSpanActivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;
 }
 
-.NavBtn.active :last-child {
+.AnimatedBtn.active :last-child {
   animation-name: bottomSpanActivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;
@@ -75,19 +75,19 @@
 
 /* Remove active class animation */
 
-.NavBtn :first-child {
+.AnimatedBtn :first-child {
   animation-name: topSpanDeactivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;
 }
 
-.NavBtn :nth-child(2) {
+.AnimatedBtn :nth-child(2) {
   animation-name: middleSpanDeactivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;
 }
 
-.NavBtn :last-child {
+.AnimatedBtn :last-child {
   animation-name: bottomSpanDeactivate;
   animation-duration: 250ms;
   animation-fill-mode: forwards;

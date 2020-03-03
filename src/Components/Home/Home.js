@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 
-import Backdrop from '../Shared/Backdrop/Backdrop';
-import Header from './Header/Header';
+import Header from '../Shared/Header/Header';
 import HomeText from './HomeText/HomeText';
-import Nav from './Nav/Nav';
 
 import './Home.css';
 
-const Home = props => {
+const Home = () => {
   const [showNav, setShowNav] = useState(false);
 
   const setShowNavHandler = () => {
@@ -20,9 +18,6 @@ const Home = props => {
         showNav={showNav} 
         setShowNav={setShowNavHandler} />
       <HomeText showNav={showNav} />
-      <Backdrop showNav={showNav}>
-        <Nav setShowNav={setShowNavHandler} />
-      </Backdrop>
     </section>
   )
 };

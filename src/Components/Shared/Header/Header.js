@@ -1,6 +1,8 @@
 import React from 'react';
 
-import NavBtn from './NavBtn/NavBtn';
+import Backdrop from '../Backdrop/Backdrop';
+import Nav from './Nav/Nav';
+import AnimatedBurger from '../AnimatedBurger/AnimatedBurger';
 
 import './Header.css';
 
@@ -10,9 +12,12 @@ const Header = props => {
       <div className="Header__img">
         <p className="Header__p" style={{ color: props.showNav ? 'transparent' : 'white' }}>LOGO</p>  
       </div> 
-      <NavBtn
+      <AnimatedBurger
         showNav={props.showNav} 
         setShowNav={props.setShowNav}/>
+      <Backdrop showNav={props.showNav}>
+        <Nav setShowNav={props.setShowNavHandler} />
+      </Backdrop>
     </header>    
   )
 };
