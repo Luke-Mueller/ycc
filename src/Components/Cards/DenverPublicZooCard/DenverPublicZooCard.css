@@ -1,4 +1,4 @@
-.DenverPublicZooQV {
+.DenverPublicZooCard {
   height: 33vh;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: flex-start;
 }
 
-.DenverPublicZooQV__button {
+.DenverPublicZooCard__button {
   width: 5rem;
   height: 2rem;
   align-self: center;
