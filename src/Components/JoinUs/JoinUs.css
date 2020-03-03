@@ -1,16 +1,21 @@
 .JoinUs {
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   background-color: orchid;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
   padding: 1.5rem;
 }
 
 .JoinUs__h1 {
   font-size: 3rem;
   margin: 4rem 0;
+}
+
+.JoinUs__p {
+  margin: 2rem 0;
 }
 
 .JoinUs__a {
