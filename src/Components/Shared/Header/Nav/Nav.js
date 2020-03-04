@@ -9,7 +9,8 @@ const Nav = props => {
     { item: 'Home', elementId: 'home' },
     { item: 'YCC', elementId: 'about' },
     { item: 'View Organizations', elementId: 'charities' },
-    { item: 'Join the community', elementId: 'join' }
+    { item: 'Join the community', elementId: 'join' },
+    { item: 'More Information', elementId: 'footer' }
   ]
 
   const navItems = navItemsList.map(navItem => {

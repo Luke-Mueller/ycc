@@ -1,8 +1,9 @@
 .AnimatedBtn {
   height: 2.5rem;
-  width: 4rem;  
+  width: 3.5rem;  
   z-index: 100;
   right: 1.5rem;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
