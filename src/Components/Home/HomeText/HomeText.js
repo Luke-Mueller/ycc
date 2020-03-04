@@ -2,17 +2,13 @@ import React from 'react';
 
 import './HomeText.css';
 
-const HomeText = props => {
+const HomeText = () => {
   return (
     <div className="HomeText">
-      <p 
-      className="HomeText__p"
-      style={{ color: props.showNav ? 'transparent' : 'white' }}>
+      <p className="HomeText__p">
         This is our branding statement about who we are
       </p>
-      <p 
-      className="HomeText__p"
-      style={{ color: props.showNav ? 'transparent' : 'white' }}>
+      <p className="HomeText__p">
         and this is our branding statement about what we do.  It will look pretty when it's done.
       </p>
     </div>

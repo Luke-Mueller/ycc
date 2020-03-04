@@ -5,7 +5,7 @@ import HomeText from './HomeText/HomeText';
 
 import './Home.css';
 
-const Home = () => {
+const Home = props => {
   const [showNav, setShowNav] = useState(false);
 
   const setShowNavHandler = () => {

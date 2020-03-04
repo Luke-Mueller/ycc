@@ -14,7 +14,7 @@
 .AnimatedBtn__span {
   height: 0.3rem;
   width: 100%;
-  background-color: rgba(86, 24, 138, 0.8);
+  background-color: rgba(58, 20, 88, 0.95);
   border-radius: 10px;
 }
 
@@ -41,7 +41,7 @@
 
 @keyframes topSpanActivate {
   0% {
-    background-color: rgba(86, 24, 138, 0.8);
+    background-color: rgba(58, 20, 88, 0.95);
   }
   75% {
     transform: translateY(233%) rotate(0);
@@ -63,7 +63,7 @@
 
 @keyframes bottomSpanActivate {
   0% {
-    background-color: rgba(86, 24, 138, 0.8);
+    background-color: rgba(58, 20, 88, 0.95);
   }
   75% {
     transform: translateY(-233%) rotate(0);
@@ -104,7 +104,7 @@
     background-color: gold;
   }
   100% {
-    background-color: rgba(86, 24, 138, 0.8);
+    background-color: rgba(58, 20, 88, 0.95);
     transform: translateY(0) rotate(0);
   }
 }
@@ -131,7 +131,7 @@
     background-color: gold;
   }
   100% {
-    background-color: rgba(86, 24, 138, 0.8);
+    background-color: rgba(58, 20, 88, 0.95);
     transform: translateY(0) rotate(0);
   }
 }
