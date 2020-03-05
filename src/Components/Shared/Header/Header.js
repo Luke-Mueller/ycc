@@ -7,6 +7,14 @@ import AnimatedBurger from '../AnimatedBurger/AnimatedBurger';
 import './Header.css';
 
 const Header = props => {
+  const navItems = [
+    { item: 'Home', elementId: 'home' },
+    { item: 'YCC', elementId: 'about' },
+    { item: 'View Organizations', elementId: 'charities' },
+    { item: 'Join the community', elementId: 'join' },
+    { item: 'More Information', elementId: 'footer' }
+  ];
+
   return (
     <header className="Header">
       <div className="Header__img">
@@ -16,7 +24,9 @@ const Header = props => {
         showNav={props.showNav} 
         setShowNav={props.setShowNav}/>
       <Backdrop showNav={props.showNav}>
-        <Nav setShowNav={props.setShowNav} />
+        <Nav 
+          navItems={navItems}
+          setShowNav={props.setShowNav} />
       </Backdrop>
     </header>    
   )

@@ -4,20 +4,11 @@ import NavItem from './NavItem/NavItem';
 import './Nav.css';
 
 const Nav = props => {
-
-  const navItemsList = [
-    { item: 'Home', elementId: 'home' },
-    { item: 'YCC', elementId: 'about' },
-    { item: 'View Organizations', elementId: 'charities' },
-    { item: 'Join the community', elementId: 'join' },
-    { item: 'More Information', elementId: 'footer' }
-  ]
-
-  const navItems = navItemsList.map(navItem => {
+  const navItems = props.navItems.map(navItem => {
     return <NavItem 
       item={navItem.item}
       itemId={navItem.elementId}
-      key={navItemsList.indexOf(navItem)}
+      key={props.navItems.indexOf(navItem)}
       setShowNav={props.setShowNav} />
   });
 
