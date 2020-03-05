@@ -1,6 +1,8 @@
 .NavItem {
   margin: 0.5rem;
   list-style: none;
+  transition: all 333ms ease-in;
+  backface-visibility: hidden;
 }
 
 .NavItem__p {

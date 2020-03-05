@@ -7,8 +7,8 @@ const Backdrop = props => {
     <div 
       className="Backdrop"
       style={{
-        opacity: props.showNav ? '1' : '0',
-        transform: props.showNav ? 'translateY(0)' : 'translateY(-100vh)'
+        opacity: props.show ? '1' : '0',
+        transform: props.show ? 'translateY(0)' : 'translateY(-100vh)'
       }}>
         { props.children }
       </div>

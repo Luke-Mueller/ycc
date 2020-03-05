@@ -8,6 +8,7 @@ import './Header.css';
 
 const Header = props => {
 
+  // Header__img div will be replaced with a component after a logo is made
 
   return (
     <header className="Header">
@@ -17,9 +18,10 @@ const Header = props => {
       <AnimatedBurger
         showNav={props.showNav} 
         setShowNav={props.setShowNav} />
-      <Backdrop showNav={props.showNav}>
+      <Backdrop show={props.showNav}>
         <Nav 
           navItems={props.navItems}
+          showNav={props.showNav}
           setShowNav={props.setShowNav} />
       </Backdrop>
     </header>    
@@ -27,5 +29,3 @@ const Header = props => {
 };
 
 export default Header;
-
-// This component will be replaced with an image of our logo

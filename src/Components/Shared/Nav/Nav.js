@@ -5,10 +5,13 @@ import './Nav.css';
 
 const Nav = props => {
   const navItems = props.navItems.map(navItem => {
+    const index = props.navItems.indexOf(navItem);
     return <NavItem 
+      index={index}
       item={navItem.item}
       itemId={navItem.elementId}
       key={props.navItems.indexOf(navItem)}
+      showNav={props.showNav}
       setShowNav={props.setShowNav} />
   });
 

@@ -11,9 +11,9 @@ COMPONENTS FOLDER STRUCTURE:
 
   The src/Components directory holds two sub-directories:
 
-  1. src/Components/Shared is a component library where reusable, dynamic components live. There should be no hardcoded state stored in these shared components. Information should be stored in the closest container component and then passed in with props.
+  1. src/Components/Shared is a component library where reusable, dynamic components live. There should be no hardcoded state stored in these components. Information should be stored in the closest container component and then passed in with props.
 
-  2. src/Components/Containers houses container components that store and pass information to shared components for them to render dynamically. Containers contain information and structure shared components into larger components.
+  2. src/Components/Containers houses container components that store and pass information to shared components for them to render dynamically. Containers contain information and structure larger components using shared components.
 
 
 CSS NAMING CONVENTIONS:
