@@ -1,19 +1,13 @@
 import React from 'react';
 
 import Backdrop from '../Backdrop/Backdrop';
-import Nav from './Nav/Nav';
+import Nav from '../Nav/Nav';
 import AnimatedBurger from '../AnimatedBurger/AnimatedBurger';
 
 import './Header.css';
 
 const Header = props => {
-  const navItems = [
-    { item: 'Home', elementId: 'home' },
-    { item: 'YCC', elementId: 'about' },
-    { item: 'View Organizations', elementId: 'charities' },
-    { item: 'Join the community', elementId: 'join' },
-    { item: 'More Information', elementId: 'footer' }
-  ];
+
 
   return (
     <header className="Header">
@@ -22,10 +16,10 @@ const Header = props => {
       </div> 
       <AnimatedBurger
         showNav={props.showNav} 
-        setShowNav={props.setShowNav}/>
+        setShowNav={props.setShowNav} />
       <Backdrop showNav={props.showNav}>
         <Nav 
-          navItems={navItems}
+          navItems={props.navItems}
           setShowNav={props.setShowNav} />
       </Backdrop>
     </header>    
