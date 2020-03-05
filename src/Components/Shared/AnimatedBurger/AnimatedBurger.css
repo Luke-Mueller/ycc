@@ -104,8 +104,8 @@
     background-color: gold;
   }
   100% {
-    background-color: rgba(66, 5, 61, 0.95);
     transform: translateY(0) rotate(0);
+    background-color: rgba(66, 5, 61, 0.95);
   }
 }
 
@@ -131,7 +131,7 @@
     background-color: gold;
   }
   100% {
-    background-color: rgba(66, 5, 61, 0.95);
     transform: translateY(0) rotate(0);
+    background-color: rgba(66, 5, 61, 0.95);
   }
 }
