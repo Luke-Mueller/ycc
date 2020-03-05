@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Header from '../Shared/Header/Header';
+import Header from '../../Shared/Header/Header';
 import HomeText from './HomeText/HomeText';
 
 import './Home.css';

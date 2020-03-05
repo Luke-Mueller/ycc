@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Cards from './Components/Cards/Cards';
+import Cards from './Components/Containers/Cards/Cards';
 import Footer from './Components/Shared/Footer/Footer';
-import Home from './Components/Home/Home';
-import JoinUs from './Components/JoinUs/JoinUs';
-import YourColoradoCharity from './Components/YourColoradoCharity/YourColoradoCharity';
+import Home from './Components/Containers/Home/Home';
+import JoinUs from './Components/Containers/JoinUs/JoinUs';
+import YourColoradoCharity from './Components/Containers/YourColoradoCharity/YourColoradoCharity';
 
 import './App.css';
 

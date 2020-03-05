@@ -5,7 +5,7 @@ import Card from './Card/Card';
 import './Cards.css';
 
 // real data will be fetched from the Go backend
-import data from '../../dummyData.json';
+import data from '../../../dummyData.json';
 
 const Cards = props => {
 
