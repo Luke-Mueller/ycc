@@ -1,4 +1,4 @@
-.JoinUs {
+.Join {
   height: 150vh;
   width: 100%;
   background-color: orchid;
@@ -9,15 +9,15 @@
   padding: 1.5rem;
 }
 
-.JoinUs__h1 {
+.Join__h1 {
   font-size: 3rem;
   margin: 4rem 0;
 }
 
-.JoinUs__p {
+.Join__p {
   margin: 2rem 0;
 }
 
-.JoinUs__a {
+.Join__a {
   font-size: 2rem;
 }
